@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>David1980</title>
+  <link rel="icon" href="./src/icon.jpg" type="image/png" sizes="32x32">
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="./change/change2.css">
+  <script src="index.js" defer></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+  <link href="/dist/output.css" rel="stylesheet">
+</head>
+
+<style>
+body {
+  overflow-y: scroll; /* Show vertical scrollbar */
+ 
+}
+</style>
+
+
+<body>
+  <div class="top-right">
+    <a class="music-button" id="music-toggle">Music on</a>
+    <input type="range" id="volume-slider" min="0" max="1" step="0.01" value="1" style="display: none;">
+  </div>  
+  <audio id="background-music" loop autoplay>
+    <source src="./src/song.mp4" type="audio/mp4">
+    Your browser does not support the audio element.
+  </audio>
+  <canvas id="floating-balls"></canvas>
+  <main>
+    <section class="section-name">
+      <div class="profile-card">
+        <h3>David1980</h3>
+        <img class="profile-image" id="betyar-image" src="./src/betyar.png" alt="Profile Image">
+      </div>
+      <div class="middle flex md:flex-row flex-col">
+        <div class="button-container">
+          <a href="https://discord.com/" target="_blank">
+            <img src="./src/discord-logo.png" alt="Discord Logo">
+          </a>
+          <a class="profile-button" id="button-discord">Discord</a>
+        </div>
+      
+        <div class="button-container">
+          <a href="https://steampowered.com/" target="_blank">
+            <img src="./src/steam-logo.png" alt="Steam Logo">
+          </a>
+          <a class="profile-button" id="button-steam">Steam</a>
+        </div>
+  
+        <div class="button-container">
+          <a href="https://github.com/" target="_blank">
+            <img src="./src/git-logo.png" alt="Github Logo">
+          </a>
+          <a class="profile-button" id="button-git">Github</a>
+        </div>
+        
+
+		
+      </div>
+    </section>
+  </main>
+  
+  <!-- SoundCloud button -->
+  <div class="soundcloud-container">
+    <div class="button-container">
+      <a href="https://soundcloud.com/" target="_blank">
+        <img src="./src/soundcloud-logo.png" alt="Sound Logo">
+      </a>
+      <a class="profile-button" id="button-sound">SoundCloud</a>
+    </div>
+  </div>
+  
+  <div class="top-left">
+ <button class="music-button" id="music-toggle" onclick="window.location.href = 'index 2.html'">ChangeLog</button>
+  
+    <div class="top-1left">
+ <button class="music1-button" id="music-toggle" onclick="window.location.href = 'playlist.html'">Playlist</button>
+
+<style>
+.music1-button {
+  display: flex;
+  margin-bottom: 20px;
+  background-color: #3de29d;
+  color: #fff;
+  border-radius: 10px;
+  margin: 0 10;
+  font-size: 1.25rem;
+  padding: 10px;
+  gap: 20px;
+  box-shadow: 0 0 2.5px #3de29d, 0 0 5px #3de29d, 0 0 10px #3de29d, 0 0 15px #3de29d;
+  cursor: pointer;
+  height: 40px;
+  width: 80px;
+}
+
+.music1-button:hover {
+  padding: 10px;
+  box-shadow: 0 0 10px #3de29d, 0 0 30px #3de29d, 0 0 60px #3de29d, 0 0 120px #3de29d;
+  transition: box-shadow 0.3s ease;
+  cursor: pointer;
+ } 
+  
+.top-1left {
+    position: absolute;
+    top: 65px;
+    left: 0px;
+}
+
+    </style> 
+
+</body>
+</html>
