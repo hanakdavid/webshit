@@ -1,1 +1,1 @@
-#Don't take it seriously
+Don't take it seriously
